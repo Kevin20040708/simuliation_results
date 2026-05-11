@@ -1,41 +1,76 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
-    <meta charset="UTF-8">
-    <title>ACC仿真视频</title>
-    <style>
-        body {font-family: Arial, sans-serif; background:#f4f4f4; display:flex; flex-direction:column; align-items:center; justify-content:center; height:100vh; margin:0;}
-        video {max-width:80%; max-height:80%; background:black;}
-    </style>
+  <meta charset="UTF-8">
+  <title>ACC仿真视频</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f4f4f4;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      margin: 0;
+      padding: 1rem;
+    }
+    section {
+      margin-bottom: 2rem;
+      width: 100%;
+      max-width: 80%;
+    }
+    h1 {
+      font-size: 1.4rem;
+      margin: 0.5rem 0;
+      text-align: center;
+    }
+    video {
+      width: 100%;
+      height: auto;
+      background: black;
+    }
+  </style>
 </head>
 <body>
+  <section id="constant">
     <h1>定速巡航工况</h1>
     <video controls>
-        <!-- 本地文件路径或远程URL -->
-        <source src="https://kevin20040708.github.io/simuliation_results/constant.mp4" type="video/mp4">
+      <source src="https://kevin20040708.github.io/simuliation_results/constant.mp4" type="video/mp4">
+      您的浏览器不支持 video 标签。
     </video>
-<body>
+  </section>
+
+  <section id="follow">
     <h1>跟随行驶工况</h1>
     <video controls>
-        <!-- 本地文件路径或远程URL -->
-        <source src="https://kevin20040708.github.io/simuliation_results/gensui.mp4" type="video/mp4">
+      <source src="https://kevin20040708.github.io/simuliation_results/gensui.mp4" type="video/mp4">
+      您的浏览器不支持 video 标签。
     </video>
-<body>
+  </section>
+
+  <section id="in_out">
     <h1>切入切出工况</h1>
     <video controls>
-        <!-- 本地文件路径或远程URL -->
-        <source src="https://kevin20040708.github.io/simuliation_results/in_out.mp4" type="video/mp4">
+      <source src="https://kevin20040708.github.io/simuliation_results/in_out.mp4" type="video/mp4">
+      您的浏览器不支持 video 标签。
     </video>
-<body>
+  </section>
+
+  <section id="cut_in">
     <h1>旁车切入工况</h1>
     <video controls>
-        <!-- 本地文件路径或远程URL -->
-        <source src="https://kevin20040708.github.io/simuliation_results/cut_in.mp4" type="video/mp4">
+      <source src="https://kevin20040708.github.io/simuliation_results/cut_in.mp4" type="video/mp4">
+      您的浏览器不支持 video 标签。
     </video>
-<body>
+  </section>
+
+  <section id="cut_out">
     <h1>前车切入工况</h1>
     <video controls>
-        <!-- 本地文件路径或远程URL -->
-        <source src="https://kevin20040708.github.io/simuliation_results/cut_out.mp4" type="video/mp4">
+      <source src="https://kevin20040708.github.io/simuliation_results/cut_out.mp4" type="video/mp4">
+      您的浏览器不支持 video 标签。
     </video>
+  </section>
+</body>
 </html>
